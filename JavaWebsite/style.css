@@ -1,0 +1,59 @@
+<style>
+    body {
+            background-color:#D3D3D3;
+    }
+
+.header {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 350px;
+    margin-left: 250px;
+    padding: 12px;
+    text-align: center;
+    border: solid;
+    border-width: 2px
+    
+}
+.contect {
+    background-color: white;
+    width: 1000px;
+    height: 800px;
+    position: absolute;
+    margin-bottom: 0px;
+    margin-right: 350px;
+    margin-left: 250px;
+    padding: 12px;
+    text-align: center;
+    border: solid;
+    border-width: 2px;
+    font-size: 150%;
+    
+}
+
+.leftmenu {
+    width: 200px; /* Set a width if you like */
+   
+}
+
+.leftmenu a {
+    background-color: white; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.leftmenu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.leftmenu a.active {
+    background-color: #ccc; /* Add a green color to the "active/current" link */
+    color: black;
+}
+
+
+
+
+</style>
