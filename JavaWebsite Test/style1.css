@@ -1,0 +1,83 @@
+<style>
+
+
+.header {
+
+     text-align: center;
+     pointer-events: none;
+     text-decoration: none;
+
+   }
+
+.leftmenu {
+       width: 210px; /* Set a width */
+       
+
+  }
+
+.leftmenu a {
+
+       background-color: white	; /* White background color */
+       color: black; /* Black text color */
+       display: block; /* Make the links appear below each other */
+       padding: 12px; /* Add some padding */
+       text-decoration: none; /* Remove underline from links */
+       
+   }
+
+.leftmenu a:hover {
+       background-color: #9DDF9B; /* Dark grey background on mouse-over */
+      
+   }
+
+.leftmenu a.active {
+    background-color: #4682B4; /* Add a green color to the "active/current" link */
+    color: black;
+    text-decoration: none;
+}
+
+
+.contect {
+   background-color: white;
+   position: absolute;
+
+   margin-right: 50px;
+   margin-left: 250px;
+   padding: 12px;
+   height: auto;
+
+   border: solid;
+   border-width: 2px;
+   text-decoration: none;
+   font-size: 150%;
+   pointer-events: none;
+
+}
+
+h2{
+  background-color: #4682B4;
+  font-size: 150%;
+  outline-color: #4682B4;
+
+}
+
+h3 {
+  background-color: #4682B4;
+  width: 100%;
+  font-size: 150%;
+}
+
+
+.footer {
+    padding: 1em;
+    position: static;
+    background-color:#4682B4;
+    clear: left;
+    text-align: center;
+}
+
+@-ms-viewport{
+    width: device-width;
+}
+
+</style>
